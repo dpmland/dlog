@@ -1,0 +1,21 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.10/src/schema.json",
+  "name": "dlog",
+  "entry": "./mod.ts",
+  "description": "A simple deno logger :p",
+  "homepage": "https://github.com/dpmland/dlog",
+  "version": "2.0.0",
+  "releaseType": "major",
+  "unstable": true,
+  "unlisted": false,
+  "checkFormat": "deno fmt --check -c deno.json",
+  "checkTest": " ",
+  "files": [
+    "./mod.ts",
+    "./deps.ts",
+    "./README.md",
+    "./deno.json"
+  ],
+  "check": true,
+  "ignore": []
+}

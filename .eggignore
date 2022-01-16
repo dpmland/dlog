@@ -1,0 +1,7 @@
+.nlsp-settings/**
+.github/**
+.test/**
+.examples/**
+CODE_OF_CONDUCT.md
+LICENSE
+.editorconfig
