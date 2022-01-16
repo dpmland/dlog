@@ -4,20 +4,18 @@
   <h5>A simple logger for deno!</h5>
   <hr>
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/duxtland/framework/Ci?label=Ci&logo=github)](./.github/workflows/ci.yml)
-[![GitHub license](https://img.shields.io/github/license/duxtland/framework?label=License)](./LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/duxtland/framework?include_prereleases&label=Release)](https://github.com/dpmland/dlog/releases)
-[![Codecov](https://img.shields.io/codecov/c/gh/duxtland/framework?label=Coverage&token=77LFURV7PT)](https://codecov.io/gh/dpmland/dlog)
-[![Discord](https://img.shields.io/discord/906542387046805508?label=Discord&logo=discord&logoColor=white)](https://discord.gg/Um27YPJKud)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dpmland/dlog/CI%20Formatting%20and%20Testslabel=Ci&logo=github)](./.github/workflows/ci.yml)
+[![GitHub license](https://img.shields.io/github/license/dpmland/dlog?label=License)](./LICENSE)
+[![Discord](https://img.shields.io/discord/932381618851692565?label=Discord&logo=discord&logoColor=white)](https://discord.gg/Um27YPJKud)
 ![Lines of code](https://img.shields.io/tokei/lines/github/dpmland/dlog?label=Lines)
+[![Last Commit](https://img.shields.io/github/last-commit/dpmland/dlog)](https://github.com/dpmland/dlog)
 
 </div>
 
 ## Description :sauropod:
 
-This is a simple logger based on
-[glogger](https://github.com/grian32/glogger) repository and improve some
-features
+This is a simple logger based on [glogger](https://github.com/grian32/glogger) repository
+and improve some features
 
 ## Usage :computer:
 
