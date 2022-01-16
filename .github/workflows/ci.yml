@@ -1,4 +1,4 @@
-name: CI Formatting and Tests
+name: CI
 on:
   push:
     branches:
@@ -20,10 +20,5 @@ jobs:
 
       - name: Check the formatting code
         run: deno fmt -c deno.json --check
-        env:
-          NO_COLOR: true
-
-      - name: Run Tests
-        run: deno test --allow-run --unstable
         env:
           NO_COLOR: true

@@ -4,7 +4,7 @@
   <h5>A simple logger for deno!</h5>
   <hr>
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dpmland/dlog/CI%20Formatting%20and%20Testslabel=Ci&logo=github)](./.github/workflows/ci.yml)
+![Github Workflow](https://img.shields.io/github/workflow/status/dpmland/dlog/CI)
 [![GitHub license](https://img.shields.io/github/license/dpmland/dlog?label=License)](./LICENSE)
 [![Discord](https://img.shields.io/discord/932381618851692565?label=Discord&logo=discord&logoColor=white)](https://discord.gg/Um27YPJKud)
 ![Lines of code](https://img.shields.io/tokei/lines/github/dpmland/dlog?label=Lines)
