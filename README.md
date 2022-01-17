@@ -22,7 +22,7 @@ and improve some features
 Basic logging out:
 
 ```ts
-import { Dlog } from 'https://x.nest.land/dlog@2.0.0/mod.ts';
+import { Dlog } from 'https://deno.land/x/dlog2@1.1.1/mod.ts';
 
 const logger = new Dlog('Test Dlog');
 
@@ -35,7 +35,7 @@ logger.debug('helloooo from debug');
 File log support
 
 ```ts
-import { Dlog } from 'https://x.nest.land/dlog@2.0.0/mod.ts';
+import { Dlog } from 'https://deno.land/x/dlog2@1.1.1/mod.ts';
 
 const logger = new Dlog('Test Dlog', true, './test');
 
