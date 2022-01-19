@@ -1,18 +1,11 @@
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/u/97813425" alt="Dpm Logo" width="100">
-  <h1>Dpm Land - Dlog</h1>
-  <h5>A simple logger for deno!</h5>
-  <hr>
+<img src="https://avatars.githubusercontent.com/u/97813425" align="right" alt="Dpm Logo" width="100">
 
-![Github Workflow](https://img.shields.io/github/workflow/status/dpmland/dlog/CI)
-[![GitHub license](https://img.shields.io/github/license/dpmland/dlog?label=License)](./LICENSE)
+## Dpm - Dlog :sauropod:
+
 [![Discord](https://img.shields.io/discord/932381618851692565?label=Discord&logo=discord&logoColor=white)](https://discord.gg/Um27YPJKud)
-![Lines of code](https://img.shields.io/tokei/lines/github/dpmland/dlog?label=Lines)
-[![Last Commit](https://img.shields.io/github/last-commit/dpmland/dlog)](https://github.com/dpmland/dlog)
-
-</div>
-
-## Description :sauropod:
+[![Twitter](https://img.shields.io/twitter/follow/dpm_land?label=Dpm%20Land&style=social)](https://twitter.com/intent/follow?screen_name=dpm_land)
+[![GitHub license](https://img.shields.io/github/license/dpmland/dlog?label=License)](./LICENSE)
+![Github Workflow](https://img.shields.io/github/workflow/status/dpmland/dlog/CI)
 
 This is a simple logger based on [glogger](https://github.com/grian32/glogger) repository
 and improve some features
