@@ -122,6 +122,31 @@ export default class Dlog {
     }
   }
 
+  /**
+   * @description Log with the done level
+   * @param {string} message - The message to log
+   */
+
+  done(message: string): void {
+    const noColorMsg = `[${
+      format(new Date(), 'yyyy/MM/dd h:mm:ss a')
+    }] [${this._app}] [DONE] ${message}`;
+    console.log(
+      `${
+        colors.brightGreen(
+          colors.bold(
+            '[' + format(new Date(), 'yyyy/MM/dd h:mm:ss a') + ']',
+          ),
+        )
+      } ${colors.italic(colors.green('[' + this._app + ']'))} ${
+        colors.brightGreen('[  DONE ]:')
+      } ${message}`,
+    );
+    if (this._logToFile) {
+      this.writeToFile(noColorMsg);
+    }
+  }
+
   private writeToFile(noColorMsg: string): void {
     ensureDirSync(this._logFolder);
     const appName = this._app.replace(' ', '-');
