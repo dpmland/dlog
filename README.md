@@ -15,8 +15,8 @@ and improve some features
 Basic logging out:
 
 ```ts
-import { Dlog } from 'https://deno.land/x/dlog2@1.1.2/classic.ts'; // Classic version with the classic out!
-import { Dlog } from 'https://deno.land/x/dlog2@1.1.2/mini.ts'; // Mini version the same features of classic but with a minimalist out!
+import { Dlog } from 'https://deno.land/x/dlog2@2.0/classic.ts'; // Classic version with the classic out!
+import { Dlog } from 'https://deno.land/x/dlog2@2.0/mini.ts'; // Mini version the same features of classic but with a minimalist out!
 
 const logger = new Dlog('Test Dlog');
 
@@ -29,8 +29,8 @@ logger.debug('helloooo from debug');
 File log support
 
 ```ts
-import { Dlog } from 'https://deno.land/x/dlog2@1.1.2/classic.ts'; // Classic version with the classic out!
-import { Dlog } from 'https://deno.land/x/dlog2@1.1.2/mini.ts'; // Mini version the same features of classic but with a minimalist out!
+import { Dlog } from 'https://deno.land/x/dlog2@2.0/classic.ts'; // Classic version with the classic out!
+import { Dlog } from 'https://deno.land/x/dlog2@2.0/mini.ts'; // Mini version the same features of classic but with a minimalist out!
 
 const logger = new Dlog('Test Dlog', true, './test');
 
